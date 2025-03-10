@@ -49,7 +49,10 @@ onMounted(()=>{
       },
       // 设置一个触发信息框
       tooltip:{
-        trigger:"item"
+        trigger:"item",
+        formatter: (params) => {
+          return `${params.name}：${params.value[2]}`;
+        }
       },
       visualMap:{
         type:"continuous",

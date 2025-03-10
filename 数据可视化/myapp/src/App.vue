@@ -18,7 +18,7 @@ body{
   // 设置基准路径，这样就不需要再输入http://localhost:9999
   // axios.defaults.baseURL = "http://localhost:9999"
   // 改为公网部署项目,注意这里不是云服务器的8.154.47.116:8888
-  axios.defaults.baseURL = "http://8.154.47.116:9999"
+  axios.defaults.baseURL = "http://8.154.33.49:9999"
   
   export default{
     setup(){
@@ -35,6 +35,7 @@ body{
   box-sizing: border-box;
 }
 body {
-  background: url("~@/assets/bg2.jpg") top center no-repeat;
+  background: url("~@/assets/bg3.webp") top center no-repeat;
+  background-size: 120%;
 }
 </style>
